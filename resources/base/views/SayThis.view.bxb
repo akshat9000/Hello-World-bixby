@@ -1,0 +1,16 @@
+result-view{
+  match: SayThis(this)
+
+  render{
+    layout{
+      section{
+        content{
+          image{
+            url(images/angry.jpg)
+            aspect-ratio(One_One)
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+action (SaySomething) {
+  type (Search)
+  description (__DESCRIPTION__)
+  collect {
+    input (WhatUserSaid) {
+      type (WhatUserSaid)
+      min (Required) max (One)
+    }
+  }
+  output (SayThis)
+}
